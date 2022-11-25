@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>calc</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<style type="text/css">    
+           * { margin: 0; padding: 0; }
+           p { padding: 10px; }
+           #right_column { position: absolute; right: 0; top: 0; width: 30%; } 
+        </style>
+	</head>
+
+	<body id="body_" >
+		
+		<div style="background-color:#36a9f0;" iddiv="idtest" class="cl_test">
+			test
+		</div>
+		
+		
+		<div id="idmain_calc_box" opendiv=""></div>
+    			<!-- key -->
+    		<div align="right" style="padding-top:0px;">
+				<div style="background-color:#2d3b44;" iddiv="box_calc" class="cl_calc_box">
+					calc
+				</div>
+			</div>
+				<!-- window -->
+    		<div align="right"> 
+				<div id="box_calc" class="cl_mymagicoverbox_fenetre" style="width:280px;">
+					Calculator
+					<div class="cl_mymagicoverbox_fenetreinterieur">
+						<div align="left" class="cl_calc_set">
+							<textarea class="cl_calc_textarea"></textarea>
+						</div>
+						<div class="cl_calc_box_hider">hide</div>
+					</div>
+				</div>
+			</div>
+    	</div>
+
+		<script>
+				var a = document.getElementsByClassName("cl_test")[0] ;
+				//console.log(document.getElementsByClassName("cl_test")[0]);
+    			a.innerText += "reeee";
+		</script>
+	
+	</body>
+</html>

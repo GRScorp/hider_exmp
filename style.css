@@ -1,0 +1,68 @@
+.cl_test{
+  line-height: 1;
+}
+
+
+.cl_calc_set{
+  line-height: 0.5;
+}
+
+.cl_calc_textarea:hover{
+		transform:rotate(0deg) scale(1.1);
+		transition: 2s transform;
+}
+
+.cl_calc_textarea{
+		transform:rotate(0deg) scale(1);
+		transition: 2s transform;
+}
+
+.cl_calc_box {
+  display:inline-block;
+  color:#7f7f7f;
+  padding:10px;
+  margin:10px;
+  cursor:pointer;
+  font-weight:300;
+  font-family:'Roboto';
+  box-shadow: 0 1px 3px 0 #b5b5b5;
+  border: 1px solid #a4b9a5;
+  background-color:#cb2025;
+}
+
+.cl_calc_box_hider {
+  color:#555555;
+  background-color:#afafaf;
+  text-align: center;
+  cursor:pointer;
+  font-weight:400;
+  font-size:14px;
+  font-style:normal;
+  font-family:'Roboto';
+}
+
+.cl_mymagicoverbox_fenetre {
+  z-index:9999;
+  text-align:center;
+  display:none;
+  padding:5px;
+  background-color:#afafaf;
+  color:#ffffff;
+  font-style:normal;
+  font-size:20px;
+  font-weight:300;
+  font-family:'Roboto';
+}
+
+.cl_mymagicoverbox_fenetreinterieur {
+  text-align:center;
+  overflow:auto;
+  padding:10px;
+  background-color:#cfcfcf;
+  color:#666666;
+  font-weight:400;
+  font-family:'Roboto';
+  font-size:17px;
+  border-top:1px solid #e7e7e7;
+  margin-top:10px;
+}
